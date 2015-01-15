@@ -49,7 +49,7 @@ void PostOrder(node *T)
 	printf("%c", T->c);
 }
 
-Node *build(int s1, int e1, int s2, int e2)//前序遍历结果为str1[s1]-str1[e1],后序遍历结果为str2[s2]-str2[e2]
+Node *build(int s1, int e1, int s2, int e2)//前序遍历结果为str1[s1]-str1[e1],中序遍历结果为str2[s2]-str2[e2]
 {
 	Node* ret = create();
 	ret->c = str1[s1];//前序遍历的第一个节点肯定是根节点
