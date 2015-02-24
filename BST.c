@@ -78,7 +78,7 @@ int main()
 
 		PreOrder(T);
 		printf("\n");
-		InOrder(T;
+		InOrder(T);
 		printf("\n");
 		PostOrder(T);
 		printf("\n");
