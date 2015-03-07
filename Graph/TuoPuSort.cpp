@@ -1,7 +1,6 @@
 //拓扑排序
 //Miibotree
 //2015.2.2
-
 #include <stdio.h>
 #include <vector>
 #include <queue>
@@ -45,6 +44,7 @@ int main()
 		while(Q.empty() == false)
 		{
 			int nowP = Q.front();
+			//这里可以输出拓扑排序
 			Q.pop();
 			cnt++;
 			for(int i = 0; i < edge[nowP].size(); i++)
