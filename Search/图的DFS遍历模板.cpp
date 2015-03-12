@@ -33,9 +33,10 @@ bool vis[n] = {false};
 DFS(int u, int depth)
 {
 	vis[u] = true;//先置该顶点为访问过
+	//如果要对图进行一些操作，可以在这里进行
 	for(int i = 0; i < Adj[u].size(); i++)
 	{
-		int v = Adj[u][v];
+		int v = Adj[u][i];
 		if(vis[v] == false)
 			DFS(v, depth + 1);
 	}
