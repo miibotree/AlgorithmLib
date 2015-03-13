@@ -3,7 +3,7 @@
 //Miibotree
 //2015.3.3
 //希望熟练敲出
-#include <queue>
+#include <queue>8
 using namespace std;
 #define MAXN 1000
 struct Node

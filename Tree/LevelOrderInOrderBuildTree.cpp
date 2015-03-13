@@ -6,7 +6,7 @@ using namespace std;
 struct Node
 {
     int key;
-    struct Node* left, *right;
+    struct Node *left, *right;
 };
  
 /* Function to find index of value in arr[start...end] */
